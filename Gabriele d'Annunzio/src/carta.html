@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Gabriele d'Annunzio - Carta del Carnaro</title>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <a href="index.html">Gabriele d'Annunzio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="biografia.html">Biografia</a></li>
+                <li><a href="contesto.html">Contesto storico</a></li>
+                <li><a href="carta.html" aria-current="page">Carta del Carnaro</a></li>
+                <li><a href="donne.html">Diritti della donna</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false">Tema scuro</button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="title">
+            <h1>La Carta del Carnaro</h1>
+            <i>Il progetto costituzionale nato a Fiume tra utopia politica, lavoro e cultura.</i>
+        </div>
+
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Un laboratorio politico nel primo dopoguerra</h2>
+                <p>
+                    Redatta nel 1920 da Alceste De Ambris e rielaborata da Gabriele d'Annunzio,
+                    la Carta del Carnaro e' uno dei documenti piu' originali del periodo di Fiume:
+                    combina idee sociali, rappresentanza corporativa e forte dimensione simbolica.
+                </p>
+                <div class="hero-actions">
+                    <button class="hero-btn" data-scroll-target="#timeline-carnaro">Esplora la timeline</button>
+                    <button class="hero-btn hero-btn-outline" data-scroll-target="#facts">Scopri una curiosita'</button>
+                </div>
+            </div>
+            <div class="hero-grid">
+                <div class="stat-card">
+                    <h3>1919</h3>
+                    <p>Inizio impresa di Fiume</p>
+                </div>
+                <div class="stat-card">
+                    <h3>1920</h3>
+                    <p>Redazione della Carta</p>
+                </div>
+                <div class="stat-card">
+                    <h3>9+1</h3>
+                    <p>Corporazioni previste</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Lavoro</h3>
+                    <p>Fondamento dello Stato</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Che cos'e' la Carta del Carnaro</h2>
+            <p>
+                La Carta del Carnaro e' la costituzione elaborata per la Reggenza Italiana del Carnaro,
+                nata durante l'esperienza di Fiume. Non entra davvero in vigore in modo stabile, ma
+                resta un testo importante per capire le tensioni politiche e culturali del dopoguerra.
+            </p>
+            <p>
+                Il documento mescola elementi democratici, sociali e corporativi, insieme a una forte
+                teatralita' politica tipica dello stile dannunziano.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>Principi fondamentali</h2>
+            <div class="rights-grid">
+                <article class="rights-card">
+                    <h3>Sovranita' e cittadinanza</h3>
+                    <ul class="checklist">
+                        <li>Riconoscimento della partecipazione politica.</li>
+                        <li>Centralita' della comunita' civica.</li>
+                        <li>Idea di Stato fondata sulla collaborazione.</li>
+                    </ul>
+                </article>
+                <article class="rights-card">
+                    <h3>Lavoro e corporazioni</h3>
+                    <ul class="checklist">
+                        <li>Il lavoro viene definito base dell'ordinamento.</li>
+                        <li>Rappresentanza organizzata per settori produttivi.</li>
+                        <li>Tentativo di superare il conflitto sociale classico.</li>
+                    </ul>
+                </article>
+                <article class="rights-card">
+                    <h3>Cultura e simboli</h3>
+                    <ul class="checklist">
+                        <li>Grande rilievo a scuola, arte e musica.</li>
+                        <li>Uso politico del rito pubblico.</li>
+                        <li>Fusione tra linguaggio istituzionale e poetico.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Elementi innovativi e contraddizioni</h2>
+            <p>
+                La Carta contiene spunti avanzati per l'epoca, come attenzione ai diritti sociali
+                e al ruolo culturale dello Stato. Allo stesso tempo presenta ambiguita' legate alla
+                concentrazione del potere, al peso della leadership carismatica e alla fragilita'
+                dell'esperimento istituzionale.
+            </p>
+            <p>
+                Per questo viene spesso letta come testo di passaggio: innovativo in alcune intuizioni,
+                ma immerso in un contesto politico instabile e conflittuale.
+            </p>
+        </section>
+
+        <section class="content-section" id="timeline-carnaro">
+            <h2>Linea del tempo di Fiume e della Carta</h2>
+            <div class="timeline-controls">
+                <button class="timeline-filter is-active" data-era="all">Tutti</button>
+                <button class="timeline-filter" data-era="fiume">Impresa di Fiume</button>
+                <button class="timeline-filter" data-era="carta">Carta del Carnaro</button>
+                <button class="timeline-filter" data-era="crisi">Crisi finale</button>
+            </div>
+            <ul class="timeline">
+                <li class="timeline-item" data-era="fiume"><strong>Settembre 1919</strong> - D'Annunzio occupa Fiume con i legionari.</li>
+                <li class="timeline-item" data-era="fiume"><strong>1919-1920</strong> - Si consolida la Reggenza Italiana del Carnaro.</li>
+                <li class="timeline-item" data-era="carta"><strong>1920</strong> - De Ambris e d'Annunzio elaborano la Carta del Carnaro.</li>
+                <li class="timeline-item" data-era="carta"><strong>1920</strong> - Il testo propone una struttura corporativa in 9+1 sezioni.</li>
+                <li class="timeline-item" data-era="crisi"><strong>Novembre 1920</strong> - Trattato di Rapallo tra Italia e Regno dei Serbi, Croati e Sloveni.</li>
+                <li class="timeline-item" data-era="crisi"><strong>Dicembre 1920</strong> - Il "Natale di sangue" conclude l'esperienza fiumana.</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>Eredita' storica</h2>
+            <div class="fact-card">
+                <p>
+                    La Carta del Carnaro non va letta solo come curiosita' storica: anticipa temi
+                    sulla rappresentanza del lavoro e sul ruolo pubblico della cultura, ma mostra anche
+                    i rischi di una politica fondata sulla mobilitazione continua e sul carisma personale.
+                </p>
+            </div>
+        </section>
+
+        <section class="content-section" id="facts">
+            <h2>Fatti rapidi</h2>
+            <div class="fact-card">
+                <p id="fact-text">Premi il pulsante per leggere una curiosita' sulla Carta del Carnaro.</p>
+                <button class="hero-btn" id="fact-btn" type="button" data-fact-group="carta">Estrai un fatto</button>
+            </div>
+        </section>
+
+        <p class="br"></p>
+    </main>
+
+    <footer>
+        <p>
+            <i>Tutti i diritti riservati &copy; - Alessandro Napoli - Martina Genini</i> <br> <br>
+            <i><a href="https://github.com/AlessandrinoKeristraxxino">Github</a></i>
+        </p>
+    </footer>
+</body>
+</html>

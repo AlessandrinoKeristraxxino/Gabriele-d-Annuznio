@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Gabriele d'Annunzio - I diritti della donna</title>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <a href="index.html">Gabriele d'Annunzio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="biografia.html">Biografia</a></li>
+                <li><a href="contesto.html">Contesto storico</a></li>
+                <li><a href="carta.html">Carta del Carnaro</a></li>
+                <li><a href="donne.html" aria-current="page">Diritti della donna</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false">Tema scuro</button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="title">
+            <h1>I diritti della donna</h1>
+            <i>Dal primo Novecento alla cittadinanza piena: una conquista storica lunga e complessa.</i>
+        </div>
+
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Una trasformazione sociale e politica</h2>
+                <p>
+                    Nel passaggio tra Ottocento e Novecento, il ruolo femminile cambia lentamente:
+                    dall'accesso all'istruzione alla partecipazione al lavoro, fino alla lotta per
+                    il voto e per la parita' giuridica.
+                </p>
+                <div class="hero-actions">
+                    <button class="hero-btn" data-scroll-target="#timeline-diritti">Esplora la timeline</button>
+                    <button class="hero-btn hero-btn-outline" data-scroll-target="#facts">Scopri una curiosita'</button>
+                </div>
+            </div>
+            <div class="hero-grid">
+                <div class="stat-card">
+                    <h3>1945</h3>
+                    <p>Diritto di voto alle donne</p>
+                </div>
+                <div class="stat-card">
+                    <h3>1946</h3>
+                    <p>Prime elezioni con voto femminile</p>
+                </div>
+                <div class="stat-card">
+                    <h3>1948</h3>
+                    <p>Uguaglianza nella Costituzione</p>
+                </div>
+                <div class="stat-card">
+                    <h3>1975</h3>
+                    <p>Riforma del diritto di famiglia</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Perche' parlarne nel progetto su d'Annunzio</h2>
+            <p>
+                Il periodo storico in cui vive d'Annunzio e' attraversato da forti contraddizioni:
+                modernizzazione, guerra, nuovi movimenti politici e richieste di diritti civili.
+                La questione femminile diventa un indicatore fondamentale della qualita' democratica.
+            </p>
+            <p>
+                Studiare i diritti della donna significa leggere come cambia l'idea stessa di
+                cittadinanza: chi partecipa alla vita pubblica, chi decide, chi ha accesso al lavoro
+                e quali tutele esistono nella vita quotidiana.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>Ambiti principali dei diritti</h2>
+            <div class="rights-grid">
+                <article class="rights-card">
+                    <h3>Istruzione</h3>
+                    <p>L'accesso alla scuola e all'universita' apre la strada all'autonomia.</p>
+                    <ul class="checklist">
+                        <li>Alfabetizzazione e formazione professionale.</li>
+                        <li>Presenza crescente nelle professioni intellettuali.</li>
+                        <li>Istruzione come base della partecipazione civile.</li>
+                    </ul>
+                </article>
+                <article class="rights-card">
+                    <h3>Lavoro</h3>
+                    <p>La presenza femminile nel lavoro cresce, ma con disuguaglianze persistenti.</p>
+                    <ul class="checklist">
+                        <li>Tutele su maternita' e condizioni di impiego.</li>
+                        <li>Parita' salariale come obiettivo ancora attuale.</li>
+                        <li>Riconoscimento del lavoro femminile nella societa'.</li>
+                    </ul>
+                </article>
+                <article class="rights-card">
+                    <h3>Partecipazione politica</h3>
+                    <p>Il voto femminile cambia il rapporto tra Stato e cittadinanza.</p>
+                    <ul class="checklist">
+                        <li>Diritto di voto dal 1945.</li>
+                        <li>Partecipazione al referendum del 1946.</li>
+                        <li>Ingresso progressivo nelle istituzioni.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="content-section" id="timeline-diritti">
+            <h2>Linea del tempo dei diritti</h2>
+            <div class="timeline-controls">
+                <button class="timeline-filter is-active" data-era="all">Tutti</button>
+                <button class="timeline-filter" data-era="voto">Voto</button>
+                <button class="timeline-filter" data-era="lavoro">Lavoro</button>
+                <button class="timeline-filter" data-era="famiglia">Famiglia</button>
+                <button class="timeline-filter" data-era="diritti-civili">Diritti civili</button>
+            </div>
+            <ul class="timeline">
+                <li class="timeline-item" data-era="voto"><strong>1945</strong> - Le donne italiane ottengono il diritto di voto politico.</li>
+                <li class="timeline-item" data-era="voto"><strong>1946</strong> - Le donne votano al referendum istituzionale e alle elezioni per l'Assemblea Costituente.</li>
+                <li class="timeline-item" data-era="diritti-civili"><strong>1948</strong> - La Costituzione sancisce il principio di uguaglianza senza distinzione di sesso.</li>
+                <li class="timeline-item" data-era="lavoro"><strong>1950</strong> - Nuove tutele sulla maternita' nel lavoro dipendente.</li>
+                <li class="timeline-item" data-era="famiglia"><strong>1975</strong> - Riforma del diritto di famiglia: parita' giuridica tra coniugi.</li>
+                <li class="timeline-item" data-era="diritti-civili"><strong>Oggi</strong> - Il tema centrale e' trasformare l'uguaglianza formale in uguaglianza reale.</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>Che cosa resta da fare</h2>
+            <div class="fact-card">
+                <p>
+                    Le conquiste giuridiche sono decisive, ma la piena parita' richiede ancora lavoro
+                    culturale, economico e istituzionale: accesso alle carriere, riduzione del divario
+                    salariale, condivisione dei carichi di cura e contrasto alla violenza di genere.
+                </p>
+            </div>
+        </section>
+
+        <section class="content-section" id="facts">
+            <h2>Fatti rapidi</h2>
+            <div class="fact-card">
+                <p id="fact-text">Premi il pulsante per leggere una curiosita' sui diritti della donna in Italia.</p>
+                <button class="hero-btn" id="fact-btn" type="button" data-fact-group="donne">Estrai un fatto</button>
+            </div>
+        </section>
+
+        <p class="br"></p>
+    </main>
+
+    <footer>
+        <p>
+            <i>Tutti i diritti riservati &copy; - Alessandro Napoli - Martina Genini</i> <br> <br>
+            <i><a href="https://github.com/AlessandrinoKeristraxxino">Github</a></i>
+        </p>
+    </footer>
+</body>
+</html>
